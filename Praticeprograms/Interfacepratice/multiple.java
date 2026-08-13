@@ -1,4 +1,4 @@
-package Interface;
+package Interfacepratice;
 interface I1{
     int x=20;
     void dispaly();

@@ -1,4 +1,4 @@
-class Employee {
+  public class Employee {
     String name;
     int id;
     String designation;
@@ -19,21 +19,16 @@ class Employee {
     }
 
     void display() {
-        System.out.println("Name: " + name);
-        System.out.println("ID: " + id);
-        System.out.println("Designation: " + designation);
-        System.out.println("Salary: " + salary);
-        System.out.println("Promotion Status: " + promotionStatus);
-        System.out.println();
+        System.out.println(name);
+        System.out.println(id);
+        System.out.println(designation);
+        System.out.println(salary);
+        System.out.println(promotionStatus);
     }
-}
 
-public class Employeee {
     public static void main(String[] args) {
-
         Employee e1 = new Employee("Naveen", 101);
-
-        Employee e2 = new Employee("Rahul", 102, "Manager", 50000, "Promoted");
+        Employee e2 = new Employee("Rahul", 102, "Manager", 50000, "Yes");
 
         e1.display();
         e2.display();

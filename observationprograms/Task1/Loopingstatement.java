@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 
 class B {
 
@@ -97,5 +97,4 @@ public class Loopingstatement {
         sc.close();
     }
 }
-
 

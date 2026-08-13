@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 
 class A {
     Scanner sc = new Scanner(System.in);
@@ -125,4 +125,3 @@ public class Conditionalstatement {
         sc.close();
     }
 }
-
