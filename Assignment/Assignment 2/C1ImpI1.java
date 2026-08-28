@@ -13,7 +13,7 @@ class a implements I1{
 
     }
 }
-public class Interface {
+public class C1ImpI1 {
 
     public static void main(String[] args) {
         a obj=new a();

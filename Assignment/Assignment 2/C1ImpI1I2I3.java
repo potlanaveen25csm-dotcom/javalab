@@ -1,4 +1,4 @@
-package Interface;
+
 interface I1{
     int x=20;
     void dispaly();
@@ -24,7 +24,7 @@ public void show(){
 }
 }
 
-public class multiple {
+public class C1ImpI1I2I3 {
     public static void main(String[] args) {
         A obj=new A();
         obj.dispaly();
